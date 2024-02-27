@@ -175,6 +175,13 @@ body {
         gap: 40px; 
     }
 }
+@media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+    
+    .apresentacao__conteudo {
+        padding: 20px; 
+    }
+    
+}
 
 /*@media screen and (min-width: 380px) {
     .apresentacao {
