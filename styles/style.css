@@ -149,6 +149,33 @@ body {
     }
  }
 
+ @media (max-width: 768px) {
+    .apresentacao__conteudo__titulo {
+        font-size: 1.8rem; 
+    }
+    
+    .apresentacao__conteudo__paragrafo {
+        font-size: 1.3rem; 
+    }
+
+    .apresentacao__links__botoes {
+        width: 80%; 
+        font-size: 1.2rem; 
+    }
+
+    .apresentacao__foto {
+        height: auto; 
+    }
+
+    .cabecalho {
+        padding: 5% 0%; 
+    }
+
+    .cabecalho__menu {
+        gap: 40px; 
+    }
+}
+
 /*@media screen and (min-width: 380px) {
     .apresentacao {
         flex-direction: column-reverse;
