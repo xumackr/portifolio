@@ -121,7 +121,7 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
 }
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
     .apresentacao {
         max-width: 992px;
         height: auto;
@@ -135,27 +135,27 @@ body {
     }
  }
 
- @media screen and (max-width: 380px) {
+ @media screen and (min-width: 380px) {
     .apresentacao {
-        flex-direction: column-reverse;
+        grid-template-columns: 1fr 1fr ;
     }
     .apresentacao__links__botoes{
         font-size: 90%;
     }
  }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
     .apresentacao {
-        flex-direction: column-reverse;
+        grid-template-columns: 1fr 1fr 1fr ;
     }
     .apresentacao__links__botoes{
         font-size: 90%;
     }
  }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
     .apresentacao {
-        flex-direction: column-reverse;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     .apresentacao__links__botoes{
         font-size: 90%;
