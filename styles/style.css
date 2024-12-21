@@ -73,6 +73,14 @@ body {
     font-family: var(--font-secundaria);
 }
 
+.apresentacao__conteudo__paragrafo_formacao {
+    font-size: 1.5rem;
+    padding: 2%; 
+    border: solid white, 1px;
+    border-radius: 10px;
+
+}
+
 .apresentacao__links {
     display: flex;
     flex-direction: column;
@@ -91,7 +99,7 @@ body {
     font-family: var(--font-secundaria);
     text-align: center;
     border-radius: 16px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     padding: 16px 0;
     text-decoration: none;
